@@ -1,3 +1,7 @@
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => res.send('Bot Discord Free Fire đang chạy 24/7!'));
+app.listen(process.env.PORT || 3000);
 const { 
   Client, 
   GatewayIntentBits, 
